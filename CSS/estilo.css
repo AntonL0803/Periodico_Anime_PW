@@ -1,0 +1,221 @@
+/* Barra de navegación (presente en todas las paginas web */ 
+nav {
+    display: flex; 
+    align-items: center; 
+    position: fixed;
+    background-color:#D98B8B;
+    border-radius: 30px;
+    margin: 0;
+    top: 10px;
+    padding: 20px;
+    width: auto;
+    max-width: 100%;
+    left: 20px;
+    right: 20px;
+}
+
+/*Presente en todas*/
+#tituloLogo {
+    position: fixed;
+    right: 60px;
+    font-size: 24px; 
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+#logoPagoda img {
+    width: 50px; 
+    height: auto; 
+    right: 30px;
+}
+
+nav a {
+    text-decoration: solid;
+    font-size: 25px;
+    color: #404040 ;
+    font-family:'Franklin Gothic Medium';
+}
+.navegacion{
+    margin-left: 20px;
+}
+
+/* Cuerpo de la pagina web */
+
+main{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color:#F2E8DC;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 40px;
+}
+
+body{
+    background-image: url(../Img/PaisajeJapon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Hasta aquí (CSS-fijo)*/
+
+
+/* disposicion de las noticias*/
+
+#tituloPagina{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Este apartado es de paginas de noticias derivadas del indice*/
+.section-imagenes-derivado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#section-imagenes-derivado-dragonball{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+article {
+    border-top: rgb(51, 51, 51, 0.5) dashed 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-noticia{
+    background-color: rgb(217, 139, 139, 0.5) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Este apartado es de paginas de noticias derivadas del indice*/
+.texto-noticia-derivantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tituloArticulo{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+.descripcion{
+    color:#404040;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.descripcion-dragonball{
+    color:#404040;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#contenedor-dragonball-texto{
+    background-color: rgb(217, 139, 139, 0.5) ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.media{
+    width: 500px;
+    height: 300px;
+}
+
+/*Este apartado es de paginas de noticias derivadas del indice*/
+.media-noticias-derivantes{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#media-noticias-derivantes-dragonball{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.enlace-paginas{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+/* Cambio de color al pasar el cursor */
+
+.enlace:hover {
+    color: rgb(242, 75, 75);
+}
+
+
+/* footer y demás*/
+footer{
+    background-color: #D98B8B;
+    display:flex;
+}
+
+
+/*CSS de la página de datos de contacto*/
+
+ul, li{
+    color:#404040;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
